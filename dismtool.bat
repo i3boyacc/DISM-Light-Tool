@@ -1,6 +1,7 @@
-rem WinBashTools Copyright 2017 lini3acc(追求i3的孩纸)
-rem 本程序从未提供品质担保。这是款自由软件，欢迎你在满足一定条件后对其再发布。
+rem DISM Light Tool主程序文件
+rem Copyright 2017 lini3acc
 
+title DISM简易辅助工具(Beta)
 @echo off
 cls
 echo.
