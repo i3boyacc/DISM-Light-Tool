@@ -51,7 +51,10 @@ if "%idx%"=="0" (
 dism /Mount-Image /ImageFile:%imgfile% /Index:%idx% /MountDir:%mntdir%
 goto ch
 :ch3
-echo 此功能将在未来加入，敬请期待！
+set /p imgfile= 请输入镜像文件的位置（如果目录有空格，请打双引号）：
+set /p mntdir= 请输入镜像展开目录（如果目录有空格，请打双引号）：
+set /p idx= 请输入镜像索引号（如没有则输入0）：
+dism /Apply-Image /ImageFile:%imgfile% /Index:%idx% /ApplyDir:%mntdir%
 goto ch
 :ch4
 set /p mntdir= 请输入镜像挂载目录（如果目录有空格，请打双引号）：
