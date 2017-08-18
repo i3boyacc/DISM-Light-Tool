@@ -1,11 +1,11 @@
 rem DISM Light Tool主程序文件
 rem Copyright 2017 lini3acc
 
-title DISM简易辅助工具(Beta)
+title DISM简易辅助工具 1.0 Beta
 @echo off
 cls
 echo.
-echo DISM简易辅助工具(Beta)
+echo DISM简易辅助工具 1.0 Beta
 echo.
 echo 注意：本程序需要以管理员身份运行！
 echo.
@@ -66,6 +66,9 @@ if "%comorn%"=="Y" (
 dism /Unmount-Image /MountDir:%mntdir% /Discard
 goto ch
 :ch5
-echo 此功能将在未来加入，敬请期待！
+set /p cptdir= 请输入欲捕获并保存到镜像的目录（如果目录有空格，请打双引号）：
+set /p imgfile= 请输入镜像文件的位置（如果目录有空格，请打双引号）：
+set /p name= 请输入镜像名称（如有空格，请打双引号）：
+dism /Capture-Image /ImageFile:%imgfile% /CaptureDir:%cptdir% /Name:%name%
 goto ch
 :end
