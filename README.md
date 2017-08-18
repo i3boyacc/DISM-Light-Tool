@@ -11,4 +11,4 @@ DISM的简易辅助工具，程序小巧轻便。
 |LICENSE|许可协议|
 |README.md|帮助文件|
 
-![https://user-images.githubusercontent.com/17170467/29459181-0fcbd2bc-8455-11e7-9020-edf06855a973.png](img_url)
+![https://user-images.githubusercontent.com/17170467/29459168-05f8cc72-8455-11e7-9f4e-8ec176e4d7b4.png](img_url)
