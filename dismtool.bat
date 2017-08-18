@@ -15,7 +15,7 @@ echo (1)获取镜像信息
 echo (2)挂载镜像
 echo (3)展开镜像
 echo (4)卸载镜像
-echo (5)将目录保存到镜像
+echo (5)将目录捕获到镜像
 echo (6)退出本程序
 echo.
 :ch
